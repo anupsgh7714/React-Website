@@ -104,9 +104,15 @@
     color: #fff;
 }
 
-.header-img{
+.header-img:nth-child(1){
+    text-align: left;
+}
+
+.header-img:nth-child(2){
     text-align: right;
 }
+
+
 
 #header .animated{
     animation: up-down 2s ease-in-out infinite alternate-reverse both;
@@ -123,10 +129,10 @@
 
 @-webkit-keyframes up-down{
     0%{
-        transform: translateY(40px);
+        transform: translateY(10px);
     }
     100%{
-        transform:translateY(-40px);
+        transform:translateY(-10px);
     }
 }
 
